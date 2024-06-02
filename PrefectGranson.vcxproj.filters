@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{db756aa6-fa44-4d38-90df-fc48e5efa08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence">
+      <UniqueIdentifier>{05430de8-f490-4277-bf8e-106378fd3caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Manager">
+      <UniqueIdentifier>{ff10ec64-1fba-4f52-9ac5-6fc769af2a6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GUI">
+      <UniqueIdentifier>{27b04fd8-43f3-4442-8b12-bb6f8c9d543f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\MinHook">
+      <UniqueIdentifier>{845200b4-e155-4382-832c-3ff05686a42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\NaLibary">
+      <UniqueIdentifier>{64e0e75e-3094-4d27-bdb3-62eec2426c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\SDK">
+      <UniqueIdentifier>{bca57039-ef55-4b09-9a74-c4fb1927f125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\ImGui">
+      <UniqueIdentifier>{37d44128-e03f-4c9f-af4e-64ee1ff04f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\XorString">
+      <UniqueIdentifier>{ac66b395-1f41-44c9-95da-12c366348833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\ImRender">
+      <UniqueIdentifier>{b6f22d8c-32fc-493e-ad1e-141ed456b312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{8ea52a9d-0899-4a83-acd5-07afc9fcfaba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Featrue">
+      <UniqueIdentifier>{d4bb636b-3b4b-420f-ad52-fb6c5bd71875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\Json">
+      <UniqueIdentifier>{ae2cf51e-cdac-4c05-a670-1bb40959c3e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Safety">
+      <UniqueIdentifier>{ba0fe9c8-a423-4e3d-af5d-31214d781006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Safety\SpoofCall">
+      <UniqueIdentifier>{ddf31544-cf85-4b98-8777-316c9ece8793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Safety\MemoryHider">
+      <UniqueIdentifier>{c5cb5f69-981f-4f4e-9133-8375eb99713f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{79dfdaee-4047-450d-b399-0f6130017d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\stb_image">
+      <UniqueIdentifier>{a496f3c7-87b1-454e-9e48-401c01b10c3a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Manager\Application.h">
+      <Filter>Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\XorString\XorString.h">
+      <Filter>Dependence\XorString</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\MinHook\buffer.h">
+      <Filter>Dependence\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\MinHook\hde32.h">
+      <Filter>Dependence\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\MinHook\hde64.h">
+      <Filter>Dependence\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\MinHook\MinHook.h">
+      <Filter>Dependence\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\MinHook\pstdint.h">
+      <Filter>Dependence\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\MinHook\table32.h">
+      <Filter>Dependence\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\MinHook\table64.h">
+      <Filter>Dependence\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\MinHook\trampoline.h">
+      <Filter>Dependence\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\NaLibrary\NaLibrary.h">
+      <Filter>Dependence\NaLibary</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Manager\CallbackManager.h">
+      <Filter>Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GUI\dxgi.h">
+      <Filter>Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GUI\Menu.h">
+      <Filter>Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GUI\WinUser.h">
+      <Filter>Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImRender\ImRender.h">
+      <Filter>Dependence\ImRender</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\NaLibrary\NaTime.h">
+      <Filter>Dependence\NaLibary</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Feature\Main.h">
+      <Filter>Core\Featrue</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Feature\Utils.h">
+      <Filter>Core\Featrue</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\Json\json.h">
+      <Filter>Dependence\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\NaLibrary\NaFile.h">
+      <Filter>Dependence\NaLibary</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\NaLibrary\NaPath.h">
+      <Filter>Dependence\NaLibary</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Manager\Console.h">
+      <Filter>Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Manager\Config.h">
+      <Filter>Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imconfig.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imgui.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imgui_impl_dx11.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imgui_impl_win32.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imgui_internal.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imstb_rectpack.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imstb_textedit.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imstb_truetype.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\misc\cpp\imgui_stdlib.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Manager\HookManager.h">
+      <Filter>Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Manager\SingletonManager.h">
+      <Filter>Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Safety\SpoofCall\SpoofCall.h">
+      <Filter>Core\Safety\SpoofCall</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Manager\ResourceManager.h">
+      <Filter>Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\stb_image\stb_image.h">
+      <Filter>Dependence\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Feature\Visual.h">
+      <Filter>Core\Featrue</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\SDK\UnrealContainers.hpp">
+      <Filter>Dependence\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\SDK\PropertyFixup.hpp">
+      <Filter>Dependence\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\SDK\SDK.hpp">
+      <Filter>Dependence\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Feature\Aimbot.h">
+      <Filter>Core\Featrue</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\MinHook\buffer.c">
+      <Filter>Dependence\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\MinHook\hde32.c">
+      <Filter>Dependence\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\MinHook\hde64.c">
+      <Filter>Dependence\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\MinHook\hook.c">
+      <Filter>Dependence\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\MinHook\trampoline.c">
+      <Filter>Dependence\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui_demo.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui_draw.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui_impl_dx11.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui_impl_win32.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui_tables.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui_widgets.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\SDK\Basic.cpp">
+      <Filter>Dependence\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\SDK\CoreUObject_functions.cpp">
+      <Filter>Dependence\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\SDK\Engine_functions.cpp">
+      <Filter>Dependence\SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dependence\SDK\NameCollisions.inl">
+      <Filter>Dependence\SDK</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Dependence\SDK</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource\PerfectProjectTemplate.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resource\CascadiaCode.ttf">
+      <Filter>Resource</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
